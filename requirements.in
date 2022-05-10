@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+
+
+# for development
+black
+isort
