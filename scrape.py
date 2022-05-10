@@ -9,13 +9,13 @@ URL_ATTRIBUTES = "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes"
 
 
 def scrape():
-    elements = defaultdict(list)
-    _scrape_elements(elements)
-    _scrape_attributes(elements)
-    return elements
+    html_elements = defaultdict(list)
+    _scrape_elements(html_elements)
+    _scrape_attributes(html_elements)
+    return html_elements
 
 
-def _scrape_elements(elements: dict) -> None:
+def _scrape_elements(html_elements: dict) -> None:
     r = requests.get(URL_ELEMENTS)
     soup = BeautifulSoup(r.content, "html.parser")
 
@@ -24,10 +24,10 @@ def _scrape_elements(elements: dict) -> None:
             td = tr.find_all("td")[0]
             for e in td.text.split(","):
                 element = e.strip().lstrip("<").rstrip(">")
-                elements[element]  # create a key in the dict
+                html_elements[element]  # create a key in the dict
 
 
-def _scrape_attributes(elements: dict) -> None:
+def _scrape_attributes(html_elements: dict) -> None:
     r = requests.get(URL_ATTRIBUTES)
     soup = BeautifulSoup(r.content, "html.parser")
 
@@ -37,19 +37,19 @@ def _scrape_attributes(elements: dict) -> None:
             attr = td1.find_next("code").text
             for e in td2.text.split(","):
                 element = e.strip().lstrip("<").rstrip(">")
-                elements[element].append(attr)
+                html_elements[element].append(attr)
 
-    elements["*"] = elements["Global attribute"]
-    del elements["Global attribute"]
+    html_elements["*"] = html_elements["Global attribute"]
+    del html_elements["Global attribute"]
 
 
-def save_as_json(elements: dict) -> None:
+def save_as_json(html_elements: dict) -> None:
     with open("html-elements.json", "w") as f:
-        result = sorted(elements.keys())
-        json.dump(result, f, indent=4)
+        sorted_elements = sorted(html_elements.keys())
+        json.dump(sorted_elements, f, indent=4)
     with open("html-elements-attributes.json", "w") as f:
-        result = dict(sorted(elements.items()))
-        json.dump(result, f, indent=4)
+        sorted_elements = dict(sorted(html_elements.items()))
+        json.dump(sorted_elements, f, indent=4)
 
 
 if __name__ == "__main__":
