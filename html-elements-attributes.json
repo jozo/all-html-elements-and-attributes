@@ -4,7 +4,6 @@
         "autocapitalize",
         "class",
         "contenteditable",
-        "contextmenu",
         "data-*",
         "dir",
         "draggable",
@@ -34,18 +33,11 @@
     "abbr": [],
     "acronym": [],
     "address": [],
-    "applet": [
-        "align",
-        "alt",
-        "code",
-        "codebase"
-    ],
     "area": [
         "alt",
         "coords",
         "download",
         "href",
-        "hreflang",
         "media",
         "ping",
         "referrerpolicy",
@@ -57,7 +49,6 @@
     "aside": [],
     "audio": [
         "autoplay",
-        "buffered",
         "controls",
         "crossorigin",
         "loop",
@@ -70,16 +61,9 @@
         "href",
         "target"
     ],
-    "basefont": [
-        "color"
-    ],
     "bdi": [],
     "bdo": [],
-    "bgsound": [
-        "loop"
-    ],
     "big": [],
-    "blink": [],
     "blockquote": [
         "cite"
     ],
@@ -89,7 +73,6 @@
     ],
     "br": [],
     "button": [
-        "autofocus",
         "disabled",
         "form",
         "formaction",
@@ -120,13 +103,6 @@
         "align",
         "bgcolor",
         "span"
-    ],
-    "command": [
-        "checked",
-        "disabled",
-        "icon",
-        "radiogroup",
-        "type"
     ],
     "content": [],
     "contenteditable": [
@@ -197,16 +173,13 @@
         "align",
         "color"
     ],
-    "html": [
-        "manifest"
-    ],
+    "html": [],
     "i": [],
     "iframe": [
         "align",
         "allow",
         "csp",
         "height",
-        "importance",
         "loading",
         "name",
         "referrerpolicy",
@@ -223,7 +196,6 @@
         "crossorigin",
         "decoding",
         "height",
-        "importance",
         "intrinsicsize",
         "ismap",
         "loading",
@@ -238,7 +210,6 @@
         "accept",
         "alt",
         "autocomplete",
-        "autofocus",
         "capture",
         "checked",
         "dirname",
@@ -274,14 +245,6 @@
         "datetime"
     ],
     "kbd": [],
-    "keygen": [
-        "autofocus",
-        "challenge",
-        "disabled",
-        "form",
-        "keytype",
-        "name"
-    ],
     "label": [
         "for",
         "form"
@@ -291,10 +254,10 @@
         "value"
     ],
     "link": [
+        "as",
         "crossorigin",
         "href",
         "hreflang",
-        "importance",
         "integrity",
         "media",
         "referrerpolicy",
@@ -348,7 +311,8 @@
     ],
     "ol": [
         "reversed",
-        "start"
+        "start",
+        "type"
     ],
     "optgroup": [
         "disabled",
@@ -391,20 +355,18 @@
     "samp": [],
     "script": [
         "async",
-        "charset",
         "crossorigin",
         "defer",
-        "importance",
         "integrity",
         "language",
         "referrerpolicy",
         "src",
         "type"
     ],
+    "search": [],
     "section": [],
     "select": [
         "autocomplete",
-        "autofocus",
         "disabled",
         "form",
         "multiple",
@@ -422,7 +384,6 @@
         "srcset",
         "type"
     ],
-    "spacer": [],
     "span": [],
     "strike": [],
     "strong": [],
@@ -457,7 +418,6 @@
     "template": [],
     "textarea": [
         "autocomplete",
-        "autofocus",
         "cols",
         "dirname",
         "disabled",
@@ -510,12 +470,12 @@
     "var": [],
     "video": [
         "autoplay",
-        "buffered",
         "controls",
         "crossorigin",
         "height",
         "loop",
         "muted",
+        "playsinline",
         "poster",
         "preload",
         "src",
