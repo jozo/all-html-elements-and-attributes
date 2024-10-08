@@ -1,4 +1,107 @@
 {
+    "*": {
+        "attributes": {
+            "accesskey": {
+                "experimental": false
+            },
+            "anchor": {
+                "experimental": true
+            },
+            "autocapitalize": {
+                "experimental": false
+            },
+            "autofocus": {
+                "experimental": false
+            },
+            "class": {
+                "experimental": false
+            },
+            "contenteditable": {
+                "experimental": false
+            },
+            "data-*": {
+                "experimental": false
+            },
+            "dir": {
+                "experimental": false
+            },
+            "draggable": {
+                "experimental": false
+            },
+            "enterkeyhint": {
+                "experimental": false
+            },
+            "exportparts": {
+                "experimental": false
+            },
+            "hidden": {
+                "experimental": false
+            },
+            "id": {
+                "experimental": false
+            },
+            "inert": {
+                "experimental": false
+            },
+            "inputmode": {
+                "experimental": false
+            },
+            "is": {
+                "experimental": false
+            },
+            "itemid": {
+                "experimental": false
+            },
+            "itemprop": {
+                "experimental": false
+            },
+            "itemref": {
+                "experimental": false
+            },
+            "itemscope": {
+                "experimental": false
+            },
+            "itemtype": {
+                "experimental": false
+            },
+            "lang": {
+                "experimental": false
+            },
+            "nonce": {
+                "experimental": false
+            },
+            "part": {
+                "experimental": false
+            },
+            "popover": {
+                "experimental": false
+            },
+            "slot": {
+                "experimental": false
+            },
+            "spellcheck": {
+                "experimental": false
+            },
+            "style": {
+                "experimental": false
+            },
+            "tabindex": {
+                "experimental": false
+            },
+            "title": {
+                "experimental": false
+            },
+            "translate": {
+                "experimental": false
+            },
+            "virtualkeyboardpolicy": {
+                "experimental": true
+            },
+            "writingsuggestions": {
+                "experimental": false
+            }
+        }
+    },
     "a": {
         "deprecated": false,
         "experimental": false,

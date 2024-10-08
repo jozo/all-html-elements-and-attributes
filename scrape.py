@@ -19,20 +19,31 @@ def _scrape_elements(html_elements: dict) -> None:
     request = requests.get(URL_ELEMENTS)
     soup = BeautifulSoup(request.content, "html.parser")
 
-    sidebar = soup.find(id="sidebar-quicklinks").find('summary', string="HTML elements").find_parent()
+    html_elements["*"]["attributes"] = {}
 
-    # loops through the listed elements in the sidebar
-    for li in sidebar.find_all('li'):
+    global_attributes_container = soup.find(id="sidebar-quicklinks").find('summary', string="Global attributes").find_parent()
+
+    # loops through the listed global attributes in the sidebar
+    for li in global_attributes_container.find_all('li'):
+        is_experimental = bool(li.select_one(".icon.icon-experimental"))
+        html_elements["*"]["attributes"][li.find('a').text] = {
+            "experimental": is_experimental
+        }
+
+    html_elements_container = soup.find(id="sidebar-quicklinks").find('summary', string="HTML elements").find_parent()
+
+    # loops through the listed html elements in the sidebar
+    for li in html_elements_container.find_all('li'):
         # loads the element reference page
         request = requests.get(BASE_URL + li.find('a').get('href'))
         soup = BeautifulSoup(request.content, "html.parser")
 
         element_name = li.find('a').text.strip().lstrip("<").rstrip(">")
-        is_deprecated = soup.select_one('.section-content > .notecard.deprecated')
-        is_experimental = soup.select_one('.section-content > .notecard.experimental')
+        is_deprecated = bool(soup.select_one('.section-content > .notecard.deprecated'))
+        is_experimental = bool(soup.select_one('.section-content > .notecard.experimental'))
 
-        html_elements[element_name]["deprecated"] = bool(is_deprecated)
-        html_elements[element_name]["experimental"] = bool(is_experimental)
+        html_elements[element_name]["deprecated"] = is_deprecated
+        html_elements[element_name]["experimental"] = is_experimental
         html_elements[element_name]["attributes"] = {}
 
         supported_attributes_container = soup.find("section", attrs={"aria-labelledby": "attributes"})
