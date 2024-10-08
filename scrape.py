@@ -4,52 +4,61 @@ from collections import defaultdict
 import requests
 from bs4 import BeautifulSoup
 
+BASE_URL = "https://developer.mozilla.org"
 URL_ELEMENTS = "https://developer.mozilla.org/en-US/docs/Web/HTML/Element"
-URL_ATTRIBUTES = "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes"
 
 
 def scrape():
-    html_elements = defaultdict(list)
+    html_elements = defaultdict(lambda: {})
     _scrape_elements(html_elements)
-    _scrape_attributes(html_elements)
     return html_elements
 
 
 def _scrape_elements(html_elements: dict) -> None:
-    r = requests.get(URL_ELEMENTS)
-    soup = BeautifulSoup(r.content, "html.parser")
+    # loads the "HTML element reference" page
+    request = requests.get(URL_ELEMENTS)
+    soup = BeautifulSoup(request.content, "html.parser")
 
-    for table in soup.find_all("table"):
-        for tr in table.find_all("tr")[1:]:
-            td = tr.find_all("td")[0]
-            for e in td.text.split(","):
-                element = e.strip().lstrip("<").rstrip(">")
-                html_elements[element]  # create a key in the dict
+    sidebar = soup.find(id="sidebar-quicklinks").find('summary', string="HTML elements").find_parent()
 
+    # loops through the listed elements in the sidebar
+    for li in sidebar.find_all('li'):
+        # loads the element reference page
+        request = requests.get(BASE_URL + li.find('a').get('href'))
+        soup = BeautifulSoup(request.content, "html.parser")
 
-def _scrape_attributes(html_elements: dict) -> None:
-    r = requests.get(URL_ATTRIBUTES)
-    soup = BeautifulSoup(r.content, "html.parser")
+        element = li.find('a').text.strip().lstrip("<").rstrip(">")
+        isDeprecated = soup.select_one('.section-content > .notecard.deprecated')
+        isExperimental = soup.select_one('.section-content > .notecard.experimental')
 
-    for table in soup.find_all("table"):
-        for tr in table.find_all("tr")[1:]:
-            td1, td2, _ = tr.find_all("td")
-            attr = td1.find_next("code").text
-            for e in td2.text.split(","):
-                element = e.strip().lstrip("<").rstrip(">")
-                html_elements[element].append(attr)
+        html_elements[element]["deprecated"] = bool(isDeprecated)
+        html_elements[element]["experimental"] = bool(isExperimental)
+        html_elements[element]["attributes"] = []
 
-    html_elements["*"] = html_elements["Global attribute"]
-    del html_elements["Global attribute"]
+        supportedAttributesContainer = soup.find("section", attrs={"aria-labelledby": "attributes"})
+        deprecatedAttributesContainer = soup.find("section", attrs={"aria-labelledby": "deprecated_attributes"})
 
+        if supportedAttributesContainer:
+            for attribute in supportedAttributesContainer.select(".section-content > dl > dt"):
+                if attribute.select_one('a code'):
+                    html_elements[element]["attributes"].append({
+                        "name": attribute.select_one('a code').text,
+                        "deprecated": False,
+                        "experimental": bool(attribute.select_one('.icon.icon-experimental'))
+                    })
+
+        if deprecatedAttributesContainer:
+            for attribute in deprecatedAttributesContainer.select(".section-content > dl > dt"):
+                if attribute.select_one('a code'):
+                    html_elements[element]["attributes"].append({
+                        "name": attribute.select_one('a code').text,
+                        "deprecated": True,
+                        "experimental": False
+                    })
 
 def save_as_json(html_elements: dict) -> None:
     with open("html-elements.json", "w") as f:
-        sorted_elements = sorted(html_elements.keys())
-        json.dump(sorted_elements, f, indent=4)
-    with open("html-elements-attributes.json", "w") as f:
-        sorted_elements = dict(sorted(html_elements.items()))
-        json.dump(sorted_elements, f, indent=4)
+        json.dump(html_elements, f, indent=4)
 
 
 if __name__ == "__main__":
