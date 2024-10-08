@@ -2,2662 +2,2270 @@
     "a": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "attributionsrc",
+        "attributes": {
+            "attributionsrc": {
                 "deprecated": false,
                 "experimental": true
             },
-            {
-                "name": "download",
+            "download": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "href",
+            "href": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "hreflang",
+            "hreflang": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "ping",
+            "ping": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "referrerpolicy",
+            "referrerpolicy": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "rel",
+            "rel": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "target",
+            "target": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "type",
+            "type": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "charset",
+            "charset": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "coords",
+            "coords": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "name",
+            "name": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "rev",
+            "rev": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "shape",
+            "shape": {
                 "deprecated": true,
                 "experimental": false
             }
-        ]
+        }
     },
     "abbr": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "acronym": {
         "deprecated": true,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "address": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "area": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "alt",
+        "attributes": {
+            "alt": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "coords",
+            "coords": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "download",
+            "download": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "href",
+            "href": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "ping",
+            "ping": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "referrerpolicy",
+            "referrerpolicy": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "rel",
+            "rel": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "shape",
+            "shape": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "target",
+            "target": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "article": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "aside": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "audio": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "autoplay",
+        "attributes": {
+            "autoplay": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "controls",
+            "controls": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "controlslist",
+            "controlslist": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "crossorigin",
+            "crossorigin": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "disableremoteplayback",
+            "disableremoteplayback": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "loop",
+            "loop": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "muted",
+            "muted": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "preload",
+            "preload": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "src",
+            "src": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "b": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "base": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "href",
+        "attributes": {
+            "href": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "target",
+            "target": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "bdi": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "bdo": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "dir",
+        "attributes": {
+            "dir": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "big": {
         "deprecated": true,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "blockquote": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "cite",
+        "attributes": {
+            "cite": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "body": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "alink",
+        "attributes": {
+            "alink": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "background",
+            "background": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "bgcolor",
+            "bgcolor": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "bottommargin",
+            "bottommargin": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "leftmargin",
+            "leftmargin": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "link",
+            "link": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "onafterprint",
+            "onafterprint": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "onbeforeprint",
+            "onbeforeprint": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "onbeforeunload",
+            "onbeforeunload": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "onblur",
+            "onblur": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "onerror",
+            "onerror": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "onfocus",
+            "onfocus": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "onhashchange",
+            "onhashchange": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "onlanguagechange",
+            "onlanguagechange": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "onload",
+            "onload": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "onmessage",
+            "onmessage": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "onoffline",
+            "onoffline": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "ononline",
+            "ononline": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "onpopstate",
+            "onpopstate": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "onresize",
+            "onresize": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "onstorage",
+            "onstorage": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "onunload",
+            "onunload": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "rightmargin",
+            "rightmargin": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "text",
+            "text": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "topmargin",
+            "topmargin": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "vlink",
+            "vlink": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "br": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "clear",
+        "attributes": {
+            "clear": {
                 "deprecated": true,
                 "experimental": false
             }
-        ]
+        }
     },
     "button": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "autofocus",
+        "attributes": {
+            "autofocus": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "disabled",
+            "disabled": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "form",
+            "form": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "formaction",
+            "formaction": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "formenctype",
+            "formenctype": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "formmethod",
+            "formmethod": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "formnovalidate",
+            "formnovalidate": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "formtarget",
+            "formtarget": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "name",
+            "name": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "popovertarget",
+            "popovertarget": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "popovertargetaction",
+            "popovertargetaction": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "type",
+            "type": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "value",
+            "value": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "canvas": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "height",
+        "attributes": {
+            "height": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "moz-opaque",
+            "moz-opaque": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "width",
+            "width": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "caption": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "align",
+        "attributes": {
+            "align": {
                 "deprecated": true,
                 "experimental": false
             }
-        ]
+        }
     },
     "center": {
         "deprecated": true,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "cite": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "code": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "col": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "span",
+        "attributes": {
+            "span": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "align",
+            "align": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "bgcolor",
+            "bgcolor": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "char",
+            "char": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "charoff",
+            "charoff": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "valign",
+            "valign": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "width",
+            "width": {
                 "deprecated": true,
                 "experimental": false
             }
-        ]
+        }
     },
     "colgroup": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "span",
+        "attributes": {
+            "span": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "align",
+            "align": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "bgcolor",
+            "bgcolor": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "char",
+            "char": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "charoff",
+            "charoff": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "valign",
+            "valign": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "width",
+            "width": {
                 "deprecated": true,
                 "experimental": false
             }
-        ]
+        }
     },
     "data": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "value",
+        "attributes": {
+            "value": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "datalist": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "dd": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "del": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "cite",
+        "attributes": {
+            "cite": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "datetime",
+            "datetime": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "details": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "open",
+        "attributes": {
+            "open": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "name",
+            "name": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "dfn": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "dialog": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "open",
+        "attributes": {
+            "open": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "dir": {
         "deprecated": true,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "compact",
+        "attributes": {
+            "compact": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "div": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "dl": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "dt": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "em": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "embed": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "height",
+        "attributes": {
+            "height": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "src",
+            "src": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "type",
+            "type": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "width",
+            "width": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "fencedframe": {
         "deprecated": false,
         "experimental": true,
-        "attributes": [
-            {
-                "name": "allow",
+        "attributes": {
+            "allow": {
                 "deprecated": false,
                 "experimental": true
             },
-            {
-                "name": "height",
+            "height": {
                 "deprecated": false,
                 "experimental": true
             },
-            {
-                "name": "width",
+            "width": {
                 "deprecated": false,
                 "experimental": true
             }
-        ]
+        }
     },
     "fieldset": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "disabled",
+        "attributes": {
+            "disabled": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "form",
+            "form": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "name",
+            "name": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "figcaption": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "figure": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "font": {
         "deprecated": true,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "color",
+        "attributes": {
+            "color": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "face",
+            "face": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "size",
+            "size": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "footer": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "form": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "accept",
+        "attributes": {
+            "accept": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "accept-charset",
+            "accept-charset": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "autocapitalize",
+            "autocapitalize": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "autocomplete",
+            "autocomplete": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "name",
+            "name": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "rel",
+            "rel": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "frame": {
         "deprecated": true,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "src",
+        "attributes": {
+            "src": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "name",
+            "name": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "noresize",
+            "noresize": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "scrolling",
+            "scrolling": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "marginheight",
+            "marginheight": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "marginwidth",
+            "marginwidth": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "frameborder",
+            "frameborder": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "frameset": {
         "deprecated": true,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "cols",
+        "attributes": {
+            "cols": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "rows",
+            "rows": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "h1": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "head": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "profile",
+        "attributes": {
+            "profile": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "header": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "hgroup": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "hr": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "align",
+        "attributes": {
+            "align": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "color",
+            "color": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "noshade",
+            "noshade": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "size",
+            "size": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "width",
+            "width": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "html": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "version",
+        "attributes": {
+            "version": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "xmlns",
+            "xmlns": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "i": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "iframe": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "allow",
+        "attributes": {
+            "allow": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "allowfullscreen",
+            "allowfullscreen": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "allowpaymentrequest",
+            "allowpaymentrequest": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "browsingtopics",
+            "browsingtopics": {
                 "deprecated": false,
                 "experimental": true
             },
-            {
-                "name": "credentialless",
+            "credentialless": {
                 "deprecated": false,
                 "experimental": true
             },
-            {
-                "name": "csp",
+            "csp": {
                 "deprecated": false,
                 "experimental": true
             },
-            {
-                "name": "height",
+            "height": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "loading",
+            "loading": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "name",
+            "name": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "referrerpolicy",
+            "referrerpolicy": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "sandbox",
+            "sandbox": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "src",
+            "src": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "srcdoc",
+            "srcdoc": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "width",
+            "width": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "align",
+            "align": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "frameborder",
+            "frameborder": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "longdesc",
+            "longdesc": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "marginheight",
+            "marginheight": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "marginwidth",
+            "marginwidth": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "scrolling",
+            "scrolling": {
                 "deprecated": true,
                 "experimental": false
             }
-        ]
+        }
     },
     "img": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "alt",
+        "attributes": {
+            "alt": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "attributionsrc",
+            "attributionsrc": {
                 "deprecated": false,
                 "experimental": true
             },
-            {
-                "name": "crossorigin",
+            "crossorigin": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "decoding",
+            "decoding": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "elementtiming",
+            "elementtiming": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "fetchpriority",
+            "fetchpriority": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "height",
+            "height": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "ismap",
+            "ismap": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "loading",
+            "loading": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "referrerpolicy",
+            "referrerpolicy": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "sizes",
+            "sizes": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "src",
+            "src": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "srcset",
+            "srcset": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "width",
+            "width": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "usemap",
+            "usemap": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "align",
+            "align": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "border",
+            "border": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "hspace",
+            "hspace": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "longdesc",
+            "longdesc": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "name",
+            "name": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "vspace",
+            "vspace": {
                 "deprecated": true,
                 "experimental": false
             }
-        ]
+        }
     },
     "input": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "ins": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "cite",
+        "attributes": {
+            "cite": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "datetime",
+            "datetime": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "kbd": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "label": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "for",
+        "attributes": {
+            "for": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "legend": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "li": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "value",
+        "attributes": {
+            "value": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "type",
+            "type": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "link": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "as",
+        "attributes": {
+            "as": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "blocking",
+            "blocking": {
                 "deprecated": false,
                 "experimental": true
             },
-            {
-                "name": "crossorigin",
+            "crossorigin": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "disabled",
+            "disabled": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "fetchpriority",
+            "fetchpriority": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "href",
+            "href": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "hreflang",
+            "hreflang": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "imagesizes",
+            "imagesizes": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "imagesrcset",
+            "imagesrcset": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "integrity",
+            "integrity": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "media",
+            "media": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "referrerpolicy",
+            "referrerpolicy": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "rel",
+            "rel": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "sizes",
+            "sizes": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "title",
+            "title": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "type",
+            "type": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "main": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "map": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "name",
+        "attributes": {
+            "name": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "mark": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "marquee": {
         "deprecated": true,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "behavior",
+        "attributes": {
+            "behavior": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "bgcolor",
+            "bgcolor": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "direction",
+            "direction": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "height",
+            "height": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "hspace",
+            "hspace": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "loop",
+            "loop": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "scrollamount",
+            "scrollamount": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "scrolldelay",
+            "scrolldelay": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "truespeed",
+            "truespeed": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "vspace",
+            "vspace": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "width",
+            "width": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "menu": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "meta": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "charset",
+        "attributes": {
+            "charset": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "content",
+            "content": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "http-equiv",
+            "http-equiv": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "name",
+            "name": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "meter": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "value",
+        "attributes": {
+            "value": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "min",
+            "min": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "max",
+            "max": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "low",
+            "low": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "high",
+            "high": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "optimum",
+            "optimum": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "form",
+            "form": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "nav": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "nobr": {
         "deprecated": true,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "noembed": {
         "deprecated": true,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "noframes": {
         "deprecated": true,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "noscript": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "object": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "archive",
+        "attributes": {
+            "archive": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "border",
+            "border": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "classid",
+            "classid": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "codebase",
+            "codebase": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "codetype",
+            "codetype": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "data",
+            "data": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "declare",
+            "declare": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "form",
+            "form": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "height",
+            "height": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "name",
+            "name": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "standby",
+            "standby": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "type",
+            "type": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "usemap",
+            "usemap": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "width",
+            "width": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "ol": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "reversed",
+        "attributes": {
+            "reversed": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "start",
+            "start": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "type",
+            "type": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "optgroup": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "disabled",
+        "attributes": {
+            "disabled": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "label",
+            "label": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "option": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "disabled",
+        "attributes": {
+            "disabled": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "label",
+            "label": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "selected",
+            "selected": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "value",
+            "value": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "output": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "for",
+        "attributes": {
+            "for": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "form",
+            "form": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "name",
+            "name": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "p": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "param": {
         "deprecated": true,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "name",
+        "attributes": {
+            "name": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "value",
+            "value": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "type",
+            "type": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "valuetype",
+            "valuetype": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "picture": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "plaintext": {
         "deprecated": true,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "portal": {
         "deprecated": false,
         "experimental": true,
-        "attributes": [
-            {
-                "name": "referrerpolicy",
+        "attributes": {
+            "referrerpolicy": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "src",
+            "src": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "pre": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "width",
+        "attributes": {
+            "width": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "wrap",
+            "wrap": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "progress": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "max",
+        "attributes": {
+            "max": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "value",
+            "value": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "q": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "cite",
+        "attributes": {
+            "cite": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "rb": {
         "deprecated": true,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "rp": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "rt": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "rtc": {
         "deprecated": true,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "ruby": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "s": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "samp": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "script": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "async",
+        "attributes": {
+            "async": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "attributionsrc",
+            "attributionsrc": {
                 "deprecated": false,
                 "experimental": true
             },
-            {
-                "name": "blocking",
+            "blocking": {
                 "deprecated": false,
                 "experimental": true
             },
-            {
-                "name": "crossorigin",
+            "crossorigin": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "defer",
+            "defer": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "fetchpriority",
+            "fetchpriority": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "integrity",
+            "integrity": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "nomodule",
+            "nomodule": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "nonce",
+            "nonce": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "referrerpolicy",
+            "referrerpolicy": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "src",
+            "src": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "type",
+            "type": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "charset",
+            "charset": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "language",
+            "language": {
                 "deprecated": true,
                 "experimental": false
             }
-        ]
+        }
     },
     "search": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "section": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "select": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "autocomplete",
+        "attributes": {
+            "autocomplete": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "autofocus",
+            "autofocus": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "disabled",
+            "disabled": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "form",
+            "form": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "multiple",
+            "multiple": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "name",
+            "name": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "required",
+            "required": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "size",
+            "size": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "slot": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "name",
+        "attributes": {
+            "name": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "small": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "source": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "type",
+        "attributes": {
+            "type": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "src",
+            "src": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "srcset",
+            "srcset": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "sizes",
+            "sizes": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "media",
+            "media": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "height",
+            "height": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "width",
+            "width": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "span": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "strike": {
         "deprecated": true,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "strong": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "style": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "blocking",
+        "attributes": {
+            "blocking": {
                 "deprecated": false,
                 "experimental": true
             },
-            {
-                "name": "media",
+            "media": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "nonce",
+            "nonce": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "title",
+            "title": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "type",
+            "type": {
                 "deprecated": true,
                 "experimental": false
             }
-        ]
+        }
     },
     "sub": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "summary": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "sup": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "table": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "align",
+        "attributes": {
+            "align": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "bgcolor",
+            "bgcolor": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "border",
+            "border": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "cellpadding",
+            "cellpadding": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "cellspacing",
+            "cellspacing": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "frame",
+            "frame": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "rules",
+            "rules": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "summary",
+            "summary": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "width",
+            "width": {
                 "deprecated": true,
                 "experimental": false
             }
-        ]
+        }
     },
     "tbody": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "align",
+        "attributes": {
+            "align": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "bgcolor",
+            "bgcolor": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "char",
+            "char": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "charoff",
+            "charoff": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "valign",
+            "valign": {
                 "deprecated": true,
                 "experimental": false
             }
-        ]
+        }
     },
     "td": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "colspan",
+        "attributes": {
+            "colspan": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "headers",
+            "headers": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "rowspan",
+            "rowspan": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "abbr",
+            "abbr": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "align",
+            "align": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "axis",
+            "axis": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "bgcolor",
+            "bgcolor": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "char",
+            "char": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "charoff",
+            "charoff": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "height",
+            "height": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "scope",
+            "scope": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "valign",
+            "valign": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "width",
+            "width": {
                 "deprecated": true,
                 "experimental": false
             }
-        ]
+        }
     },
     "template": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "shadowrootmode",
+        "attributes": {
+            "shadowrootmode": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "shadowrootclonable",
+            "shadowrootclonable": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "shadowrootdelegatesfocus",
+            "shadowrootdelegatesfocus": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "shadowrootserializable",
+            "shadowrootserializable": {
                 "deprecated": false,
                 "experimental": true
             }
-        ]
+        }
     },
     "textarea": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "autocapitalize",
+        "attributes": {
+            "autocapitalize": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "autocomplete",
+            "autocomplete": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "autocorrect",
+            "autocorrect": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "autofocus",
+            "autofocus": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "cols",
+            "cols": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "dirname",
+            "dirname": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "disabled",
+            "disabled": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "form",
+            "form": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "maxlength",
+            "maxlength": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "minlength",
+            "minlength": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "name",
+            "name": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "placeholder",
+            "placeholder": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "readonly",
+            "readonly": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "required",
+            "required": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "rows",
+            "rows": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "spellcheck",
+            "spellcheck": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "wrap",
+            "wrap": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "tfoot": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "align",
+        "attributes": {
+            "align": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "bgcolor",
+            "bgcolor": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "char",
+            "char": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "charoff",
+            "charoff": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "valign",
+            "valign": {
                 "deprecated": true,
                 "experimental": false
             }
-        ]
+        }
     },
     "th": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "abbr",
+        "attributes": {
+            "abbr": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "colspan",
+            "colspan": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "headers",
+            "headers": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "rowspan",
+            "rowspan": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "scope",
+            "scope": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "align",
+            "align": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "axis",
+            "axis": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "bgcolor",
+            "bgcolor": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "char",
+            "char": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "charoff",
+            "charoff": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "height",
+            "height": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "valign",
+            "valign": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "width",
+            "width": {
                 "deprecated": true,
                 "experimental": false
             }
-        ]
+        }
     },
     "thead": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "align",
+        "attributes": {
+            "align": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "bgcolor",
+            "bgcolor": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "char",
+            "char": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "charoff",
+            "charoff": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "valign",
+            "valign": {
                 "deprecated": true,
                 "experimental": false
             }
-        ]
+        }
     },
     "time": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "datetime",
+        "attributes": {
+            "datetime": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "title": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "tr": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "align",
+        "attributes": {
+            "align": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "bgcolor",
+            "bgcolor": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "char",
+            "char": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "charoff",
+            "charoff": {
                 "deprecated": true,
                 "experimental": false
             },
-            {
-                "name": "valign",
+            "valign": {
                 "deprecated": true,
                 "experimental": false
             }
-        ]
+        }
     },
     "track": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "default",
+        "attributes": {
+            "default": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "kind",
+            "kind": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "label",
+            "label": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "src",
+            "src": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "srclang",
+            "srclang": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "tt": {
         "deprecated": true,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "u": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "ul": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "compact",
+        "attributes": {
+            "compact": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "type",
+            "type": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "var": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "video": {
         "deprecated": false,
         "experimental": false,
-        "attributes": [
-            {
-                "name": "autoplay",
+        "attributes": {
+            "autoplay": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "controls",
+            "controls": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "controlslist",
+            "controlslist": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "crossorigin",
+            "crossorigin": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "disablepictureinpicture",
+            "disablepictureinpicture": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "disableremoteplayback",
+            "disableremoteplayback": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "height",
+            "height": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "loop",
+            "loop": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "muted",
+            "muted": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "playsinline",
+            "playsinline": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "poster",
+            "poster": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "preload",
+            "preload": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "src",
+            "src": {
                 "deprecated": false,
                 "experimental": false
             },
-            {
-                "name": "width",
+            "width": {
                 "deprecated": false,
                 "experimental": false
             }
-        ]
+        }
     },
     "wbr": {
         "deprecated": false,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     },
     "xmp": {
         "deprecated": true,
         "experimental": false,
-        "attributes": []
+        "attributes": {}
     }
 }

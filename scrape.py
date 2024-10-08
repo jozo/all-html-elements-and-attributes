@@ -27,34 +27,34 @@ def _scrape_elements(html_elements: dict) -> None:
         request = requests.get(BASE_URL + li.find('a').get('href'))
         soup = BeautifulSoup(request.content, "html.parser")
 
-        element = li.find('a').text.strip().lstrip("<").rstrip(">")
-        isDeprecated = soup.select_one('.section-content > .notecard.deprecated')
-        isExperimental = soup.select_one('.section-content > .notecard.experimental')
+        element_name = li.find('a').text.strip().lstrip("<").rstrip(">")
+        is_deprecated = soup.select_one('.section-content > .notecard.deprecated')
+        is_experimental = soup.select_one('.section-content > .notecard.experimental')
 
-        html_elements[element]["deprecated"] = bool(isDeprecated)
-        html_elements[element]["experimental"] = bool(isExperimental)
-        html_elements[element]["attributes"] = []
+        html_elements[element_name]["deprecated"] = bool(is_deprecated)
+        html_elements[element_name]["experimental"] = bool(is_experimental)
+        html_elements[element_name]["attributes"] = {}
 
-        supportedAttributesContainer = soup.find("section", attrs={"aria-labelledby": "attributes"})
-        deprecatedAttributesContainer = soup.find("section", attrs={"aria-labelledby": "deprecated_attributes"})
+        supported_attributes_container = soup.find("section", attrs={"aria-labelledby": "attributes"})
+        deprecated_attributes_container = soup.find("section", attrs={"aria-labelledby": "deprecated_attributes"})
 
-        if supportedAttributesContainer:
-            for attribute in supportedAttributesContainer.select(".section-content > dl > dt"):
+        if supported_attributes_container:
+            for attribute in supported_attributes_container.select(".section-content > dl > dt"):
                 if attribute.select_one('a code'):
-                    html_elements[element]["attributes"].append({
-                        "name": attribute.select_one('a code').text,
+                    attribute_name = attribute.select_one('a code').text
+                    html_elements[element_name]["attributes"][attribute_name] = {
                         "deprecated": False,
                         "experimental": bool(attribute.select_one('.icon.icon-experimental'))
-                    })
+                    }
 
-        if deprecatedAttributesContainer:
-            for attribute in deprecatedAttributesContainer.select(".section-content > dl > dt"):
+        if deprecated_attributes_container:
+            for attribute in deprecated_attributes_container.select(".section-content > dl > dt"):
                 if attribute.select_one('a code'):
-                    html_elements[element]["attributes"].append({
-                        "name": attribute.select_one('a code').text,
+                    attribute_name = attribute.select_one('a code').text
+                    html_elements[element_name]["attributes"][attribute_name] = {
                         "deprecated": True,
                         "experimental": False
-                    })
+                    }
 
 def save_as_json(html_elements: dict) -> None:
     with open("html-elements.json", "w") as f:
