@@ -15,7 +15,7 @@ def scrape():
 
 
 def _scrape_elements(html_elements: dict) -> None:
-    # loads the "HTML element reference" page
+    # loads the "HTML elements reference" page
     request = requests.get(URL_ELEMENTS)
     soup = BeautifulSoup(request.content, "html.parser")
 
