@@ -51,21 +51,21 @@ def _scrape_elements(html_elements: dict) -> None:
 
         if supported_attributes_container:
             for attribute in supported_attributes_container.select(".section-content > dl > dt"):
-                if attribute.select_one('a code'):
-                    attribute_name = attribute.select_one('a code').text
-                    html_elements[element_name]["attributes"][attribute_name] = {
-                        "deprecated": False,
-                        "experimental": bool(attribute.select_one('.icon.icon-experimental'))
-                    }
+                attribute_name = attribute.select_one('a code').text
+                html_elements[element_name]["attributes"][attribute_name] = {
+                    "deprecated": False,
+                    "experimental": bool(attribute.select_one('.icon.icon-experimental'))
+                }
+
 
         if deprecated_attributes_container:
             for attribute in deprecated_attributes_container.select(".section-content > dl > dt"):
-                if attribute.select_one('a code'):
-                    attribute_name = attribute.select_one('a code').text
-                    html_elements[element_name]["attributes"][attribute_name] = {
-                        "deprecated": True,
-                        "experimental": False
-                    }
+                attribute_name = attribute.select_one('a code').text
+                html_elements[element_name]["attributes"][attribute_name] = {
+                    "deprecated": True,
+                    "experimental": False
+                }
+
 
 def save_as_json(html_elements: dict) -> None:
     with open("html-elements.json", "w") as f:
