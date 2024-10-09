@@ -48,7 +48,7 @@ def _scrape_elements(html_elements: dict) -> None:
 
         supported_attributes_container = soup.find("section", attrs={"aria-labelledby": "attributes"})
 
-        # sometimes when there is no attributes in this section, we can find them in the "individual_attributes" section (e.g. <input>)
+        # sometimes when there is no attribute in this section, we can find them in the "individual_attributes" section (e.g. <input>)
         if supported_attributes_container and not supported_attributes_container.select(".section-content > dl > dt"):
             supported_attributes_container = soup.find("section", attrs={"aria-labelledby": "individual_attributes"})
 
@@ -78,6 +78,7 @@ def _scrape_elements(html_elements: dict) -> None:
             # duplicates the value we generated for the "h1" element for other heading elements
             for element_name in ["h2", "h3", "h4", "h5", "h6"]:
                 html_elements[element_name] = html_elements["h1"]
+
 
 def save_as_json(html_elements: dict) -> None:
     with open("html-elements.json", "w") as f:
