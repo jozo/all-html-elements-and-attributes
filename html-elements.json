@@ -878,6 +878,31 @@
         "experimental": false,
         "attributes": {}
     },
+    "h2": {
+        "deprecated": false,
+        "experimental": false,
+        "attributes": {}
+    },
+    "h3": {
+        "deprecated": false,
+        "experimental": false,
+        "attributes": {}
+    },
+    "h4": {
+        "deprecated": false,
+        "experimental": false,
+        "attributes": {}
+    },
+    "h5": {
+        "deprecated": false,
+        "experimental": false,
+        "attributes": {}
+    },
+    "h6": {
+        "deprecated": false,
+        "experimental": false,
+        "attributes": {}
+    },
     "head": {
         "deprecated": false,
         "experimental": false,

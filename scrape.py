@@ -68,6 +68,11 @@ def _scrape_elements(html_elements: dict) -> None:
                     "experimental": False
                 }
 
+       # the heading elements don't have a separate page for each element (only the "h1" element is referenced in the sidebar)
+        if element_name == "h1":
+            # duplicates the value we generated for the "h1" element for other heading elements
+            for element_name in ["h2", "h3", "h4", "h5", "h6"]:
+                html_elements[element_name] = html_elements["h1"]
 
 def save_as_json(html_elements: dict) -> None:
     with open("html-elements.json", "w") as f:
