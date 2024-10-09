@@ -53,16 +53,18 @@ def _scrape_elements(html_elements: dict) -> None:
             for attribute in supported_attributes_container.select(".section-content > dl > dt"):
                 attribute_name = attribute.select_one('a code').text
                 html_elements[element_name]["attributes"][attribute_name] = {
-                    "deprecated": False,
+                    # sometimes, the supported and the deprecated attributes are in the same section, but the deprecated ones are marked with an icon instead
+                    "deprecated": bool(attribute.select_one('.icon.icon-deprecated')),
                     "experimental": bool(attribute.select_one('.icon.icon-experimental'))
                 }
 
-
+        # in most pages, the deprecated attributes are grouped in a dedicated section
         if deprecated_attributes_container:
             for attribute in deprecated_attributes_container.select(".section-content > dl > dt"):
                 attribute_name = attribute.select_one('a code').text
                 html_elements[element_name]["attributes"][attribute_name] = {
                     "deprecated": True,
+                    # AFAIK, there is no deprecated attribute that is also marked as "experimental"
                     "experimental": False
                 }
 
