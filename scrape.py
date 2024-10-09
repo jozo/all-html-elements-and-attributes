@@ -47,7 +47,10 @@ def _scrape_elements(html_elements: dict) -> None:
         html_elements[element_name]["attributes"] = {}
 
         supported_attributes_container = soup.find("section", attrs={"aria-labelledby": "attributes"})
-        deprecated_attributes_container = soup.find("section", attrs={"aria-labelledby": "deprecated_attributes"})
+
+        # sometimes when there is no attributes in this section, we can find them in the "individual_attributes" section (e.g. <input>)
+        if supported_attributes_container and not supported_attributes_container.select(".section-content > dl > dt"):
+            supported_attributes_container = soup.find("section", attrs={"aria-labelledby": "individual_attributes"})
 
         if supported_attributes_container:
             for attribute in supported_attributes_container.select(".section-content > dl > dt"):
@@ -57,6 +60,8 @@ def _scrape_elements(html_elements: dict) -> None:
                     "deprecated": bool(attribute.select_one('.icon.icon-deprecated')),
                     "experimental": bool(attribute.select_one('.icon.icon-experimental'))
                 }
+
+        deprecated_attributes_container = soup.find("section", attrs={"aria-labelledby": "deprecated_attributes"})
 
         # in most pages, the deprecated attributes are grouped in a dedicated section
         if deprecated_attributes_container:

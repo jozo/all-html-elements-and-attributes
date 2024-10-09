@@ -1147,7 +1147,164 @@
     "input": {
         "deprecated": false,
         "experimental": false,
-        "attributes": {}
+        "attributes": {
+            "accept": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "alt": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "autocapitalize": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "autocomplete": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "autofocus": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "capture": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "checked": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "dirname": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "disabled": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "form": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "formaction": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "formenctype": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "formmethod": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "formnovalidate": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "formtarget": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "height": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "id": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "inputmode": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "list": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "max": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "maxlength": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "min": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "minlength": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "multiple": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "name": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "pattern": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "placeholder": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "popovertarget": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "popovertargetaction": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "readonly": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "required": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "size": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "src": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "step": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "tabindex": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "title": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "type": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "value": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "width": {
+                "deprecated": false,
+                "experimental": false
+            }
+        }
     },
     "ins": {
         "deprecated": false,
