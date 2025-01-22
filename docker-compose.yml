@@ -1,0 +1,8 @@
+services:
+  python:
+    build:
+      context: .
+    user: 1000:1000
+    volumes:
+      - ./:/code
+    working_dir: /code
