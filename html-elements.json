@@ -10,6 +10,9 @@
             "autocapitalize": {
                 "experimental": false
             },
+            "autocorrect": {
+                "experimental": true
+            },
             "autofocus": {
                 "experimental": false
             },
@@ -326,30 +329,6 @@
         "deprecated": false,
         "experimental": false,
         "attributes": {
-            "alink": {
-                "deprecated": true,
-                "experimental": false
-            },
-            "background": {
-                "deprecated": true,
-                "experimental": false
-            },
-            "bgcolor": {
-                "deprecated": true,
-                "experimental": false
-            },
-            "bottommargin": {
-                "deprecated": true,
-                "experimental": false
-            },
-            "leftmargin": {
-                "deprecated": true,
-                "experimental": false
-            },
-            "link": {
-                "deprecated": true,
-                "experimental": false
-            },
             "onafterprint": {
                 "deprecated": false,
                 "experimental": false
@@ -390,11 +369,31 @@
                 "deprecated": false,
                 "experimental": false
             },
+            "onmessageerror": {
+                "deprecated": false,
+                "experimental": false
+            },
             "onoffline": {
                 "deprecated": false,
                 "experimental": false
             },
             "ononline": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "onpageswap": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "onpagehide": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "onpagereveal": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "onpageshow": {
                 "deprecated": false,
                 "experimental": false
             },
@@ -406,12 +405,44 @@
                 "deprecated": false,
                 "experimental": false
             },
+            "onrejectionhandled": {
+                "deprecated": false,
+                "experimental": false
+            },
             "onstorage": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "onunhandledrejection": {
                 "deprecated": false,
                 "experimental": false
             },
             "onunload": {
                 "deprecated": false,
+                "experimental": false
+            },
+            "alink": {
+                "deprecated": true,
+                "experimental": false
+            },
+            "background": {
+                "deprecated": true,
+                "experimental": false
+            },
+            "bgcolor": {
+                "deprecated": true,
+                "experimental": false
+            },
+            "bottommargin": {
+                "deprecated": true,
+                "experimental": false
+            },
+            "leftmargin": {
+                "deprecated": true,
+                "experimental": false
+            },
+            "link": {
+                "deprecated": true,
                 "experimental": false
             },
             "rightmargin": {
@@ -449,6 +480,14 @@
             "autofocus": {
                 "deprecated": false,
                 "experimental": false
+            },
+            "command": {
+                "deprecated": false,
+                "experimental": true
+            },
+            "commandfor": {
+                "deprecated": false,
+                "experimental": true
             },
             "disabled": {
                 "deprecated": false,
@@ -820,6 +859,26 @@
                 "experimental": false
             },
             "rel": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "action": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "enctype": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "method": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "novalidate": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "target": {
                 "deprecated": false,
                 "experimental": false
             }
@@ -1364,7 +1423,7 @@
             },
             "blocking": {
                 "deprecated": false,
-                "experimental": true
+                "experimental": false
             },
             "crossorigin": {
                 "deprecated": false,
@@ -1420,6 +1479,14 @@
             },
             "type": {
                 "deprecated": false,
+                "experimental": false
+            },
+            "charset": {
+                "deprecated": true,
+                "experimental": false
+            },
+            "rev": {
+                "deprecated": true,
                 "experimental": false
             }
         }
@@ -1512,6 +1579,10 @@
                 "experimental": false
             },
             "http-equiv": {
+                "deprecated": false,
+                "experimental": false
+            },
+            "media": {
                 "deprecated": false,
                 "experimental": false
             },
@@ -1852,7 +1923,7 @@
             },
             "blocking": {
                 "deprecated": false,
-                "experimental": true
+                "experimental": false
             },
             "crossorigin": {
                 "deprecated": false,
@@ -2018,7 +2089,7 @@
         "attributes": {
             "blocking": {
                 "deprecated": false,
-                "experimental": true
+                "experimental": false
             },
             "media": {
                 "deprecated": false,

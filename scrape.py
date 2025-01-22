@@ -1,3 +1,4 @@
+import re
 import json
 from collections import defaultdict
 
@@ -46,36 +47,27 @@ def _scrape_elements(html_elements: dict) -> None:
         html_elements[element_name]["experimental"] = is_experimental
         html_elements[element_name]["attributes"] = {}
 
-        supported_attributes_container = soup.find("section", attrs={"aria-labelledby": "attributes"})
+        # here we are looking for <section> elements with the "aria-labelledby" attribute value starting with "attributes"
+        # (that's to support pages where the attributes are documented using more than one container)
+        supported_attributes_containers = soup.find_all("section", attrs={"aria-labelledby": re.compile(r'attributes')})
 
-        # sometimes when there is no attribute in this section, we can find them in the "individual_attributes" section (e.g. <input>)
-        if supported_attributes_container and not supported_attributes_container.select(".section-content > dl > dt"):
-            supported_attributes_container = soup.find("section", attrs={"aria-labelledby": "individual_attributes"})
+        # loops through all <section> elements we found
+        for supported_attributes_container in supported_attributes_containers:
+            # we are not scraping non-standard attributes for now
+            if "non-standard_attributes" in supported_attributes_container["aria-labelledby"]:
+                continue
 
-        if supported_attributes_container:
+            # scrapes data for each attribute
             for attribute in supported_attributes_container.select(".section-content > dl > dt"):
                 attribute_name = attribute.select_one('a code').text
                 html_elements[element_name]["attributes"][attribute_name] = {
-                    # sometimes, the supported and the deprecated attributes are in the same section, but the deprecated ones are marked with an icon instead
                     "deprecated": bool(attribute.select_one('.icon.icon-deprecated')),
                     "experimental": bool(attribute.select_one('.icon.icon-experimental'))
                 }
 
-        deprecated_attributes_container = soup.find("section", attrs={"aria-labelledby": "deprecated_attributes"})
-
-        # in most pages, the deprecated attributes are grouped in a dedicated section
-        if deprecated_attributes_container:
-            for attribute in deprecated_attributes_container.select(".section-content > dl > dt"):
-                attribute_name = attribute.select_one('a code').text
-                html_elements[element_name]["attributes"][attribute_name] = {
-                    "deprecated": True,
-                    # AFAIK, there is no deprecated attribute that is also marked as "experimental"
-                    "experimental": False
-                }
-
        # the heading elements don't have a separate page for each element (only the "h1" element is referenced in the sidebar)
         if element_name == "h1":
-            # duplicates the value we generated for the "h1" element for other heading elements
+            # duplicates the data we found for the "h1" element for other heading elements
             for element_name in ["h2", "h3", "h4", "h5", "h6"]:
                 html_elements[element_name] = html_elements["h1"]
 
